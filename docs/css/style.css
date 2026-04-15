@@ -125,7 +125,6 @@ header {
   border: none;
   cursor: pointer;
   margin-left: auto;
-
 }
 
 .hamburger span {
@@ -141,6 +140,10 @@ header {
   .hamburger {
     display: block;
   }
+
+  .sp_br {
+   display: none;
+ }
 
   .navigation {
     display: none;
