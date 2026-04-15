@@ -115,6 +115,8 @@ header {
 /* =====================
    ハンバーガー
 ===================== */
+
+/* PC（デフォルト） */
 .navigation {
   display: flex;
 }
@@ -135,37 +137,44 @@ header {
   margin: 5px 0;
 }
 
-
-/* デフォルト（PC） */
+/* 改行制御 */
 .sp_br {
   display: none;
 }
 
-/* スマホで改行 */
+/* スマホ */
+@media (max-width: 900px) {
+
+  .hamburger {
+    display: block;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .navigation.active {
+    display: block;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: var(--base);
+    padding: 15px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+  }
+
+  .navigation_list {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* タイトル改行（スマホだけ） */
 @media (max-width: 600px) {
   .sp_br {
     display: block;
   }
-}
-
-.navigation {
-  display: none;
-}
-
-.navigation.active {
-  display: block;
-  position: absolute;
-  top: 60px;
-  right: 20px;
-  background: var(--base);
-  padding: 15px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-}
-
-.navigation_list {
-  flex-direction: column;
-  gap: 10px;
 }
 
 
