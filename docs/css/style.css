@@ -129,6 +129,7 @@ header {
   margin-left: auto;
   position: relative;
   z-index: 1000; 
+　flex-shrink: 0;
 }
 
 .hamburger span {
