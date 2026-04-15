@@ -168,7 +168,7 @@ header {
   .navigation.active {
     display: block;
     position: absolute;
-    top: 60px;
+    top: 100%;
     right: 20px;
     background: var(--base);
     padding: 15px;
