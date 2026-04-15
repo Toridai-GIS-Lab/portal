@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鳥取大学農学部 地理情報科学研究室</title>
+    <!-- SEO -->
+    <meta name="description" content="鳥取大学農学部 地理情報科学研究室の公式サイト。研究内容、研究実績、メンバー情報を掲載しています。">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+    <!-- ヘッダー -->
+    <header>
+      <div class="header_container">
+
+        <!-- ロゴ -->
+        <div class="logo">
+          <a href="./index.html"> 
+            <img src="images/logo.jpg" alt="鳥取大学農学部 地理情報科学研究室ロゴ"> 
+          </a>
+          <div class="site_title">
+            <h1>鳥取大学農学部 地理情報科学研究室</h1>
+            <p>Geographic Information Science Laboratory</p>
+          </div>
+        </div>
+
+        <!-- ナビゲーション --> 
+        <nav class="navigation" id="nav" aria-label="メインナビゲーション">
+          <ul class="navigation_list">
+            <li><a href="./index.html">ホーム</a></li>
+            <li><a href="./about.html">研究内容</a></li>
+            <li><a href="./research.html">活動成果</a></li>
+            <li><a href="./news.html">お知らせ</a></li>
+            <li><a href="./members.html">メンバー</a></li>
+            <li><a href="./access.html">アクセス</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+      <!-- ハンバーガーメニュー --> 
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く"> 
+        <span class="hamburger_border_top"></span>
+        <span class="hamburger_border_center"></span>
+        <span class="hamburger_border_bottom"></span>
+      </button>
+
+      <div class="background" id="background"></div>
+    </header>
+    <!-- /ヘッダー -->
+    
+    <!-- メイン -->
+    <main>
+      <section>
+        <h2 class="title">研究内容</h2>
+
+        <article class="subsection">
+          <h3 class="subject">里地里山の変遷を最新のオープンな情報技術で解き明かす</h3>
+          <p>
+            農村およびその周辺の里地里山の歴史的土地利用の変化に関わる研究を、地理情報システム（GIS）を用いて行っています。
+            その成果を誰もが自由に利用できるようにするオープンデータの取組や、そうしたデータを効率的に活用するためのオープンソースソフトウェアの普及などにも取り組んでいます。
+            コンピューターに向かって地道な作業をしているときが、一番幸せです。 
+          </p>
+          <img src="images/about_satoyama.png" alt="蒜山演習林の地形と3次元点群データの比較" class="image">
+          <p>
+            　地理情報システムで表示した微地形表現図（左）と、航空機LiDARという機器で取得された3次元点群データの比較。
+          </p>
+          <p>
+            データ出典：おかやまインフラボックス、林野庁平成 30 年度森林域における航空レーザ計測業務(その1)（7林整治第 273号）
+          </p>
+        </article>
+
+        <h2 class="title">主な研究テーマ</h2>
+        <article class="subsection">
+          <h3 class="subject">山陰地方における土地利用変化の解明と可視化</h3>
+          <p>
+           　放牧、たたら、砂丘等、山陰地方の里地里山は特徴的な土地利用で構成されていました。これらの土地利用や景観は人々の生活の影響を受け、変遷してきました。そこで、既存文献、旧版地形図の収集や、オリジナルデータの蓄積、可視化手法の検討により、明治時代から現在までの長期間の土地利用や景観の変化の解明に取り組む研究です。データ作成が中心となる地道な作業が多いですが、歴史と現在をつなぐ重要な研究です
+          </p>
+          <img src="images/about_tatara.png" alt="研究内容の説明画像2" class="image">
+          <p>
+            　山陰地方の里地里山の特徴的な土地利用の一つである「たたら」の地形と、航空機LiDARという機器で取得された3次元点群データの比較。　明治時代後期に作成された旧版地形図から作成した、土地利用データです。現在に比べ、砂丘が広範囲にわたっていたことが読み取れます。
+          </p>
+        </article>
+
+        <article class="subsection">
+          <h3 class="subject">里地里山の地理空間情報モニタリング手法の開発</h3>
+          <p>
+           　現在、ドローンによる空中写真の撮影、数ｍｍ以下の精度で位置を測定するRTK-GNSS、レーザービームを照射し対象物を点群データとして記録するLiDARなど、里地里山を観測する、様々な新しい手法が登場しています。特にLiDARで取得されたデータは、オープンデータとしても公開され、その活用が求められています。これらの手法で取得されたデータから、里地里山を管理するために必要な情報を抽出し、今後の変化をモニタリングするための方法の開発に取り組んでいます。また、基盤モデルと呼ばれる人工知能を活用することで、森林管理に有効な情報の抽出にも取り組んでいます。
+          </p>
+          <img src="images/about_jukan.png" alt="研究内容の説明画像2" class="image">
+          <p>
+            ドローンによる空撮画像から、人工知能を用いて樹冠抽出を試みた例
+          </p>
+        </article>
+
+        <article class="subsection">
+          <h3 class="subject">地理空間情報解析のための大規模言語モデルの改良</h3>
+          <p>
+           　近年の人工知能の発展は急激に進んでおり、大規模言語モデル（LLM）の登場により足り料の地理空間情報を処理するためのコマンドライン・インターフェイス（CLI）ツールの活用が容易になりました。一方で、LLMは大量のデータから学習されているため、専門的な知識については、誤った回答をすることも少なくありません。そこで本研究では、特に日本の地理空間情報の解析においてLLMが正しく回答できるよう、その最適化手法を開発する挑戦的研究です。また、情報学を鍵として、新たな分野横断的学問分野の創出を目指します。
+          </p>
+        </article>
+
+      </section>
+    </main>
+    <!-- /メイン -->
+
+
+  <!-- フッター -->
+  <footer class="footer">
+
+    <div class="footer_inner">
+
+      <!-- ① 研究室情報 -->
+      <div class="footer_col">
+        <h2 class="footer_title">地理情報科学研究室</h2>
+        <p>鳥取大学 農学部</p>
+        <p>〒680-8553</p>
+        <p>鳥取県鳥取市湖山町南4丁目101</p>
+        <p>TEL: 0857-31-5343</p>
+      </div>
+
+      <!-- ② ナビゲーション -->
+      <div class="footer_col">
+        <h3 class="footer_title">メニュー</h3>
+        <ul class="footer_nav">
+          <li><a href="./index.html">ホーム</a></li>
+          <li><a href="./about.html">研究内容</a></li>
+          <li><a href="./research.html">活動成果</a></li>
+          <li><a href="./news.html">お知らせ</a></li>
+          <li><a href="./members.html">メンバー</a></li>
+          <li><a href="./access.html">アクセス</a></li>
+        </ul>
+      </div>
+
+      <!-- ③ 補助情報 -->
+      <div class="footer_col">
+        <h3 class="footer_title">リンク</h3>
+        <ul class="footer_nav">
+          <li><a href="https://www.tottori-u.ac.jp/" target="_blank" rel="noopener noreferrer">鳥取大学HP</a></li>
+          <li><a href="https://muses.muses.tottori-u.ac.jp/" target="_blank" rel="noopener noreferrer">鳥取大学農学部HP</a></li>
+          <li><a href="https://muses.muses.tottori-u.ac.jp/about/staff/teacher-leas.php?id=57" target="_blank" rel="noopener noreferrer">農学部HP研究室紹介
+          </a></li>
+          <li><a href="./privacy.html">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- コピーライト -->
+    <div class="footer_bottom">
+      <p>&copy; 2026 Geographic Information Science Laboratory</p>
+    </div>
+
+  </footer>
+  <!-- /フッター -->
+
+    <script src="js/script.js"></script>
+
+  </body>
+
+</html>
