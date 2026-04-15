@@ -124,6 +124,8 @@ header {
   background: none;
   border: none;
   cursor: pointer;
+  margin-left: auto;
+
 }
 
 .hamburger span {
@@ -138,9 +140,6 @@ header {
 @media (max-width: 900px) {
   .hamburger {
     display: block;
-    top: 20px;
-    right: 20px;
-    z-index: 999;
   }
 
   .navigation {
