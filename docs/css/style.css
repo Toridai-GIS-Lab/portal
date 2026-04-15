@@ -127,6 +127,8 @@ header {
   border: none;
   cursor: pointer;
   margin-left: auto;
+  position: relative;
+  z-index: 1000; 
 }
 
 .hamburger span {
