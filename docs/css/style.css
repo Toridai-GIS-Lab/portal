@@ -138,7 +138,6 @@ header {
 @media (max-width: 900px) {
   .hamburger {
     display: block;
-    position: absolute;
     top: 20px;
     right: 20px;
     z-index: 999;
