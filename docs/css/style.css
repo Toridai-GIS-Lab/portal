@@ -79,6 +79,9 @@ header {
   color: var(--sub-text);
 }
 
+.site_title {
+  max-width: calc(100% - 60px); 
+}
 
 @media (max-width: 600px) {
   .site_title p {
